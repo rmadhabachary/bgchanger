@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 .canvas{
     display: flex;
@@ -16,6 +17,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 #orange{
     width: 100px;
@@ -23,13 +25,22 @@ body{
     background-color: orange;
     border: 1px solid black;
     border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 40px -11px rgba(33,32,33,1);
+    -moz-box-shadow: 10px 10px 40px -11px rgba(33,32,33,1);
+    box-shadow: 10px 10px 40px -11px rgba(33,32,33,1);
+    
 }
 #white{
+    color: blue;
     width: 100px;
     height: 100px;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 40px -11px rgba(33,32,33,1);
+    -moz-box-shadow: 10px 10px 40px -11px rgba(33,32,33,1);
+    box-shadow: 10px 10px 40px -11px rgba(33,32,33,1);
+    
 }
 #green{
     width: 100px;
@@ -37,4 +48,8 @@ body{
     background-color: green;
     border: 1px solid black;
     border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 40px -11px rgba(33,32,33,1);
+    -moz-box-shadow: 10px 10px 40px -11px rgba(33,32,33,1);
+    box-shadow: 10px 10px 40px -11px rgba(33,32,33,1);
+    
 }
