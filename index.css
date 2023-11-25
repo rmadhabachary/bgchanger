@@ -1,0 +1,40 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#orange{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 10px;
+}
